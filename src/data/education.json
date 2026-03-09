@@ -1,0 +1,114 @@
+{
+  "professional": {
+    "courses": [
+      {
+        "id": 1,
+        "title": "Advanced Endodontics",
+        "level": "Advanced",
+        "duration": "12 weeks",
+        "src": "https://www.colgate.com/content/dam/cloud/cp-sites/oral-care/oral-care-center/global/article/898905.jpg",
+        "instructor": "Dr. Robert Martinez",
+        "description": "Comprehensive course on root canal therapy and modern endodontic techniques."
+      },
+      {
+        "id": 2,
+        "title": "Dental Implantology Fundamentals",
+        "level": "Intermediate",
+        "duration": "8 weeks",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAZPD5P8SiNDLiWNSR1qHnIzvw7oW-XjT6QA&s",
+        "instructor": "Dr. Jennifer Lee",
+        "description": "Introduction to dental implant procedures, patient selection, and post-operative care."
+      },
+      {
+        "id": 3,
+        "title": "Cosmetic Dentistry Masterclass",
+        "level": "Advanced",
+        "duration": "10 weeks",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhl2IzP3DxvF_dP2fOY5rPp2HZkF2IyqVYg&s",
+        "instructor": "Dr. David Thompson",
+        "description": "Veneers, bonding, and smile design techniques for aesthetic excellence."
+      },
+      {
+        "id": 4,
+        "title": "Pediatric Dentistry Essentials",
+        "level": "Beginner",
+        "duration": "6 weeks",
+        "src": "https://www.advancedderm.com/getmedia/c1ac72ad-f9a1-4377-92ac-f3fd97204e77/Maria-Garcia-Cardonna-cropped.jpg?width=330&height=398&ext=.jpg",
+        "instructor": "Dr. Maria Garcia",
+        "description": "Child psychology, behavior management, and pediatric treatment approaches."
+      }
+    ],
+    "resources": [
+      {
+        "id": 1,
+        "title": "Clinical Case Studies Library",
+        "type": "PDF Collection",
+        "count": "250+ cases"
+      },
+      {
+        "id": 2,
+        "title": "Treatment Planning Templates",
+        "type": "Documents",
+        "count": "50 templates"
+      },
+      {
+        "id": 3,
+        "title": "Webinar Archive",
+        "type": "Videos",
+        "count": "120+ hours"
+      }
+    ]
+  },
+  "patient": {
+    "topics": [
+      {
+        "id": 1,
+        "title": "Understanding Cavities",
+        "icon": "tooth",
+        "content": "Cavities are permanently damaged areas in the hard surface of your teeth that develop into tiny openings or holes. They are caused by a combination of factors including bacteria in your mouth, frequent snacking, sipping sugary drinks, and not cleaning your teeth well.",
+        "tips": [
+          "Brush twice daily with fluoride toothpaste",
+          "Floss at least once a day",
+          "Limit sugary snacks and drinks",
+          "Visit your dentist regularly"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Gum Disease Prevention",
+        "icon": "shield",
+        "content": "Gum disease is an infection of the tissues that hold your teeth in place. It's typically caused by poor brushing and flossing habits that allow plaque to build up on the teeth and harden.",
+        "tips": [
+          "Use an antimicrobial mouthwash",
+          "Don't skip dental cleanings",
+          "Watch for warning signs like bleeding gums",
+          "Maintain a balanced diet"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Proper Brushing Technique",
+        "icon": "brush",
+        "content": "Hold your toothbrush at a 45-degree angle to the gums. Gently move the brush back and forth in short, tooth-wide strokes. Brush the outer surfaces, inner surfaces, and chewing surfaces of all teeth.",
+        "tips": [
+          "Brush for at least 2 minutes",
+          "Use gentle pressure",
+          "Replace your brush every 3-4 months",
+          "Don't forget to brush your tongue"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Oral Hygiene for Kids",
+        "icon": "baby",
+        "content": "Start cleaning your baby's gums with a soft, damp washcloth even before teeth appear. Once teeth emerge, use a soft-bristled toothbrush and a rice-grain sized amount of fluoride toothpaste.",
+        "tips": [
+          "Supervise brushing until age 6",
+          "Make brushing fun with songs or timers",
+          "Limit juice and sugary snacks",
+          "First dental visit by age 1"
+        ]
+      }
+    ]
+  }
+}

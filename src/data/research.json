@@ -1,0 +1,102 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Advances in Dental Implants",
+      "author": "MDPI",
+      "date": "2026-01-15",
+      "category": "implants",
+      "summary": "New materials and techniques are revolutionizing dental implant procedures, improving success rates and reducing recovery time.",
+      "readTime": "5 min read",
+      "link": "https://www.mdpi.com/2504-477X/9/3/140"
+    },
+    {
+      "id": 2,
+      "title": "The Link Between Oral Health and Heart Disease",
+      "author": "Care Quest",
+      "date": "2026-01-10",
+      "category": "general",
+      "summary": "Recent studies reveal significant connections between gum disease and cardiovascular health, emphasizing the importance of regular dental care.",
+      "readTime": "7 min read",
+      "link": "https://carequest.org/the-relationship-between-oral-health-and-heart-disease/"
+    },
+    {
+      "id": 3,
+      "title": "AI in Dental Diagnostics",
+      "author": "National Library of Medicine",
+      "date": "2026-01-05",
+      "category": "technology",
+      "summary": "Artificial intelligence is transforming how dentists detect cavities, analyze X-rays, and plan treatments with unprecedented accuracy.",
+      "readTime": "11 min read",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992950/"
+    },
+    {
+      "id": 4,
+      "title": "Pediatric Dental Care Best Practices",
+      "author": "National Library of Medicine",
+      "date": "2025-12-28",
+      "category": "pediatric",
+      "summary": "Early childhood dental visits and preventive care strategies that set the foundation for lifelong oral health.",
+      "readTime": "10 min read",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11941194/"
+    },
+    {
+      "id": 5,
+      "title": "Laser Dentistry: A Painless Future",
+      "author": "National Library of Medicine",
+      "date": "2025-12-20",
+      "category": "technology",
+      "summary": "How laser technology is making dental procedures more comfortable and precise than ever before.",
+      "readTime": "20 min read",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674728/"
+    },
+    {
+      "id": 6,
+      "title": "Orthodontic Innovations for Adults",
+      "author": "ScienceDirect",
+      "date": "2025-12-15",
+      "category": "orthodontics",
+      "summary": "Clear aligners and accelerated treatment options are making adult orthodontics more accessible and convenient.",
+      "readTime": "5 min read",
+      "link": "https://www.sciencedirect.com/science/article/pii/S088954062400088X"
+    }
+  ],
+  "media": [
+    {
+      "id": 1,
+      "title": "Proper Toothbrushing Technique",
+      "videoId": "7kGXQDwT6IA",
+      "duration": "1:14"
+    },
+    {
+      "id": 2,
+      "title": "Gum Disease Explained – Causes & Prevention",
+      "videoId": "x6vtFro_Hdo",
+      "duration": "4:33"
+    },
+    {
+      "id": 3,
+      "title": "Dental Implants: The Complete Process",
+      "videoId": "P1pAuFYKbXM",
+      "duration": "3:28"
+    },
+    {
+      "id": 4,
+      "title": "How to Floss Correctly (The C-Shape Technique)",
+      "videoId": "WviE5aa5Ha0",
+      "duration": "3:59"
+    },
+    {
+      "id": 5,
+      "title": "How AI is Transforming Dentistry | Future of Dental Care",
+      "videoId": "CSoCoa5_HzM",
+      "duration": "5:13"
+    },
+    {
+      "id": 6,
+      "title": "What to Expect at Your Child's First Dental Visit",
+      "videoId": "ntx1Nn5C4nI",
+      "duration": "7:28"
+    }
+  ]
+}

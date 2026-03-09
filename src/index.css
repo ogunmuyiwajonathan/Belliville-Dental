@@ -1,0 +1,324 @@
+@import "tailwindcss";
+
+/* Global Styles for Belleville Dental */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ====================== CUSTOM WEBKIT SCROLLBAR ====================== */
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3E9BFF;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
+
+/* Optional: Make it even thinner on mobile */
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+/* Dark areas */
+.dark ::-webkit-scrollbar-track {
+    background: #1e2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #60a5fa;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #93c5fd;
+}
+
+/* Selection color */
+::selection {
+    background: #3E9BFF;
+    color: white;
+}
+
+/* Focus styles */
+*:focus-visible {
+    outline: 2px solid #3E9BFF;
+    outline-offset: 2px;
+}
+
+/* ====================== LINE CLAMP ====================== */
+
+.line-clamp-2 {
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ====================== ANIMATIONS ====================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+    animation: slideInLeft 0.6s ease-out forwards;
+}
+
+.animate-slide-in-right {
+    animation: slideInRight 0.6s ease-out forwards;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ====================== HOVER EFFECTS ====================== */
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(11, 28, 45, 0.15);
+}
+
+/* ====================== GLASS EFFECT ====================== */
+
+.glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* ====================== GRADIENT TEXT ====================== */
+
+.gradient-text {
+    background: linear-gradient(135deg, #3E9BFF 0%, #0B1C2D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ====================== BUTTON SHINE ====================== */
+
+.btn-shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-shine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: left 0.5s ease;
+}
+
+.btn-shine:hover::after {
+    left: 100%;
+}
+
+/* ====================== CARD GLOW ====================== */
+
+.card-glow {
+    position: relative;
+}
+
+.card-glow::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(135deg, #3E9BFF, transparent, #3E9BFF);
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.card-glow:hover::before {
+    opacity: 1;
+}
+
+/* ====================== RESPONSIVE TYPOGRAPHY ====================== */
+
+@media (max-width: 640px) {
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+    }
+
+}
+
+/* ====================== PRINT STYLES ====================== */
+
+@media print {
+
+    header,
+    footer,
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+    }
+
+}
+
+        .marquee-container {
+          overflow: hidden;
+          width: 100%;
+        }
+
+        .marquee-track {
+          display: flex;
+          width: max-content;
+        }
+
+        .marquee{
+          animation: marqueeLeft 120s linear infinite;
+        }
+        .marquee-left {
+          animation: marqueeLeft 60s linear infinite;
+        }
+        .marquee-right {
+          animation: marqueeRight 60s linear infinite;
+        }
+
+        .marquee-container:hover .marquee-left,
+        .marquee-container:hover .marquee-right {
+          animation-play-state: paused;
+        }
+
+        @keyframes marqueeLeft {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+
+        @keyframes marqueeRight {
+          0% {
+            transform: translateX(-50%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+
+/* ====================== DATE INPUT LOCK ====================== */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none !important;
+    -webkit-appearance: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+    display: none !important;
+    -webkit-appearance: none !important;
+}
+
+input[type="date"].date-locked {
+    cursor: default !important;
+    pointer-events: none !important;
+    background-color: #f8fafc !important;
+    color: #374151 !important;
+    border-color: #d1d5db !important;
+}
+
+input[type="date"].date-locked:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Whitening Toothpaste",
+      "category": "toothpaste",
+      "price": 12.99,
+      "rating": 4.5,
+      "reviews": 128,
+      "image": "/products.img/proclean.png",
+      "description": "Advanced whitening formula with fluoride protection"
+    },
+    {
+      "id": 2,
+      "name": "Kids Bubblegum Toothpaste",
+      "category": "kids",
+      "price": 8.99,
+      "rating": 4.8,
+      "reviews": 256,
+      "image": "/products.img/kids.png",
+      "description": "Fun bubblegum flavor for kids with cavity protection"
+    },
+    {
+      "id": 3,
+      "name": "Sonic Pro Electric Toothbrush",
+      "category": "electric",
+      "price": 89.99,
+      "rating": 4.7,
+      "reviews": 89,
+      "image": "/products.img/sonic_pro.png",
+      "description": "Professional-grade sonic cleaning technology"
+    },
+    {
+      "id": 4,
+      "name": "Waken Sensitive Care Toothpaste",
+      "category": "toothpaste",
+      "price": 14.99,
+      "rating": 4.6,
+      "reviews": 167,
+      "image": "/products.img/sensitive.png",
+      "description": "Gentle formula for sensitive teeth and gums"
+    },
+    {
+      "id": 5,
+      "name": "Kids Electric Toothbrush",
+      "category": "kids",
+      "price": 34.99,
+      "rating": 4.9,
+      "reviews": 312,
+      "image": "/products.img/kids-electric.png",
+      "description": "Fun and effective brushing for children"
+    },
+    {
+      "id": 6,
+      "name": "Water Flosser Pro",
+      "category": "electric",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews": 78,
+      "image": "/products.img/waterflosser.png",
+      "description": "Advanced water flossing technology"
+    },
+    {
+      "id": 7,
+      "name": "Charcoal Detox Toothpaste",
+      "category": "toothpaste",
+      "price": 16.99,
+      "rating": 4.3,
+      "reviews": 95,
+      "image": "/products.img/charcoal.png",
+      "description": "Natural charcoal formula for deep cleaning"
+    },
+    {
+      "id": 8,
+      "name": "Kids Fruit Flavor Toothpaste",
+      "category": "kids",
+      "price": 7.99,
+      "rating": 4.7,
+      "reviews": 189,
+      "image": "/products.img/fruitkids.png",
+      "description": "Mixed fruit flavors kids love"
+    },
+    {
+      "id": 9,
+      "name": "UV Sanitizing Toothbrush Holder",
+      "category": "electric",
+      "price": 45.99,
+      "rating": 4.5,
+      "reviews": 56,
+      "image": "/products.img/uvholder.png",
+      "description": "UV-C light kills 99.9% of bacteria"
+    },
+    {
+      "id": 10,
+      "name": "Probiotic Mouth Rinse",
+      "category": "toothpaste",
+      "price": 13.49,
+      "rating": 4.6,
+      "reviews": 145,
+      "image": "/products.img/rinse.png",
+      "description": "Fresh breath + gum health with probiotics"
+    },
+    {
+      "id": 11,
+      "name": "Kids Character Toothbrush Set",
+      "category": "kids",
+      "price": 15.99,
+      "rating": 4.9,
+      "reviews": 412,
+      "image": "/products.img/characterbrush.png",
+      "description": "Superhero & princess themed soft brushes"
+    },
+    {
+      "id": 12,
+      "name": "Cordless Water Flosser",
+      "category": "electric",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews": 134,
+      "image": "/products.img/cordlessflosser.png",
+      "description": "Portable 360° deep cleaning"
+    },
+    {
+      "id": 13,
+      "name": "Teeth Whitening Strips",
+      "category": "toothpaste",
+      "price": 29.99,
+      "rating": 4.8,
+      "reviews": 203,
+      "image": "/products.img/strips.png",
+      "description": "Professional 14-day whitening system"
+    },
+    {
+      "id": 14,
+      "name": "Toddler Training Toothbrush",
+      "category": "kids",
+      "price": 6.99,
+      "rating": 4.7,
+      "reviews": 267,
+      "image": "/products.img/toddler.png",
+      "description": "Extra soft for ages 2-5"
+    },
+    {
+      "id": 15,
+      "name": "Smart Electric Toothbrush",
+      "category": "electric",
+      "price": 119.99,
+      "rating": 4.8,
+      "reviews": 67,
+      "image": "/products.img/smartbrush.png",
+      "description": "App-connected with pressure sensor"
+    },
+    {
+      "id": 16,
+      "name": "Fluoride-Free Kids Toothpaste",
+      "category": "kids",
+      "price": 9.49,
+      "rating": 4.5,
+      "reviews": 178,
+      "image": "/products.img/fluoridefree.png",
+      "description": "Natural strawberry flavor"
+    },
+    {
+      "id": 17,
+      "name": "Interdental Brush Set",
+      "category": "electric",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviews": 92,
+      "image": "/products.img/interdental.png",
+      "description": "Rechargeable with 6 sizes"
+    },
+    {
+      "id": 18,
+      "name": "Advanced Whitening Gel Kit",
+      "category": "toothpaste",
+      "price": 39.99,
+      "rating": 4.7,
+      "reviews": 156,
+      "image": "/products.img/gelkit.png",
+      "description": "LED accelerator + 10-day treatment"
+    }
+  ]
+}
