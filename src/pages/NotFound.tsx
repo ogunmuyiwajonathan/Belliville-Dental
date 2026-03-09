@@ -1,10 +1,10 @@
 // src/pages/NotFound.tsx
 import { Link } from 'react-router-dom';
-import { Home, ArrowLeft, Search, Smile } from 'lucide-react';
+import { Home, ArrowLeft, Smile } from 'lucide-react';
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#F6FAFC] to-white flex items-center justify-center px-5 py-16">
+    <div className="min-h-screen bg-linear-to-b from-[#F6FAFC] to-white flex items-center justify-center px-5 py-16">
       <div className="max-w-2xl w-full text-center space-y-10">
         {/* Large 404 with subtle gradient + tooth icon overlay */}
         <div className="relative">
