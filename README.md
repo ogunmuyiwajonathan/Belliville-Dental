@@ -124,5 +124,5 @@ This project is private and proprietary to Belleville Dental Center.
 
 ## Contact
 
-For questions or support, contact info@bellevilledental.com or visit [Belleville Dental Center](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.8798567859276!2d-74.17826452473246!3d40.786655371382516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c255013123f9e9%3A0x45650837c0e8e34d!2sBelleville%20Dental%20Center%2C%20PC!5e0!3m2!1sen!2sng!4v1772015331027!5m2!1sen!2sng).
-# Be
+For questions or support, contact info@bellevilledental.com or visit [Belleville Dental Center].
+# Belliville Dental
