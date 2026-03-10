@@ -77,7 +77,7 @@ export default function Header() {
               className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#3E9BFF]/40 rounded-lg"
               aria-label="Go to home"
             >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 bg-gradient-to-br from-[#3E9BFF]/20 to-[#2563eb]/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div className="w-10 h-10 sm:w-11 sm:h-11 bg-linear-to-br from-[#3E9BFF]/20 to-[#2563eb]/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/logo.png"
                   alt="Belleville Dental Logo"
