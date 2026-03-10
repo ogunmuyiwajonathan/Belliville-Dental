@@ -13,6 +13,7 @@ import {
   ArrowUpRight,
   Camera,
   Album,
+  ClipboardEdit,
   MessageCircle,
 } from 'lucide-react';
 
@@ -53,7 +54,7 @@ const sections = [
         label: 'Research',
         path: '/research',
         icon: FlaskConical,
-        description: 'Latest dental research and clinical studies.',
+        description: 'Latest dental research ,clinical studies and Educational videos.',
       },
     ],
   },
@@ -92,7 +93,7 @@ const sections = [
     ],
   },
   {
-    label: 'Booking and Contacts',
+    label: 'More',
     items: [
       {
         label: 'Contact Us',
@@ -105,6 +106,12 @@ const sections = [
         path: '/book',
         icon: BookOpenText,
         description: 'Book your appointment and we will get back to you shortly.',
+      },
+      {
+        label: 'FAQ',
+        path: '/faq',
+        icon: ClipboardEdit,
+        description: 'Frequently asked questions and answers.',
       },
     ],
   },

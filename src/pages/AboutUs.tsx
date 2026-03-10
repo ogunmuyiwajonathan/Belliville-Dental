@@ -22,7 +22,6 @@ export default function AboutUs() {
         }, 180);
       }
     } else {
-      // Normal page load
       window.scrollTo({ top: 0, behavior: 'instant' });
     }
   }, [location]);

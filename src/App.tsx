@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Sitemap from './pages/Sitemap';
 import NotFound from './pages/NotFound';
 import Book from './pages/Book';
+import FAQ from './sections/FAQ';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/sitemap" element={<Sitemap />}  />
           <Route path="/book" element={<Book />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

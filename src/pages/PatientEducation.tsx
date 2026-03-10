@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { CircleDot, Shield, Brush, Baby, Check, ChevronRight, Heart } from 'lucide-react';
 import educationData from '../data/education.json';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -158,10 +159,10 @@ export default function PatientEducation() {
                 <span className="text-sm text-[#3D4F61]">
                   Want to learn more?
                 </span>
-                <button className="group flex items-center gap-2 text-[#3E9BFF] font-medium hover:underline">
-                  View detailed guide
+                <Link to="/faq" className="group flex items-center gap-2 text-[#3E9BFF] font-medium hover:underline">
+                  View detailed guide in our FAQ
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               </div>
             </div>
           </div>

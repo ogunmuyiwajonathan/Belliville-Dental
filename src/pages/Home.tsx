@@ -13,7 +13,6 @@ export default function Home() {
       const element = document.getElementById(id);
 
       if (element) {
-        // Small delay so the full page (including Services) has rendered
         setTimeout(() => {
           const yOffset = -110; 
           const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
