@@ -147,9 +147,8 @@ export default function About() {
           })}
         </div>
 
-        {/* Main Content - Image + Text */}
+        {/* Main Content*/}
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-12 xl:gap-16 items-center mb-16 lg:mb-20">
-          {/* Image column - order last on mobile */}
           <div className="relative order-2 lg:order-1">
             <div className="aspect-4/3 sm:aspect-5/4 lg:aspect-4/3 rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
               <img
@@ -165,7 +164,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Text column - order first on mobile */}
+          {/* Text column*/}
           <div className="space-y-5 sm:space-y-6 lg:space-y-7 order-1 lg:order-2">
             <h3 className="text-2xl sm:text-3xl font-bold text-[#0B1C2D] leading-tight">
               Your Smile is Our Priority

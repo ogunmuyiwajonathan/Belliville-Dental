@@ -77,15 +77,10 @@ export default function Products() {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
-  // ────────────────────────────────────────────────
-  //  IMPORTANT FIX: Subscribe to cart items so component re-renders
-  //  when clearCart() is called from the drawer
-  // ────────────────────────────────────────────────
   const cartItems = useCartStore((state) => state.items);
 
   const addItem = useCartStore((state) => state.addItem);
-  // We can keep hasItem if you prefer, but deriving from cartItems is more explicit
-  // const hasItem = useCartStore((state) => state.hasItem);
+
 
   useEffect(() => {
     const saved = localStorage.getItem(USER_RATINGS_KEY);
@@ -226,7 +221,6 @@ export default function Products() {
         {/* Products Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {displayedProducts.map((product) => {
-            // FIXED: derive inCart from reactive cartItems
             const inCart = cartItems.some((item) => item.id === product.id);
 
             return (

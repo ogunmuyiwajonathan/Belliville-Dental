@@ -1,3 +1,4 @@
+// Header,tsx
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, Users } from 'lucide-react';
@@ -22,7 +23,6 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Hide top bar when scrolled more than ~40px (you can adjust this number)
       setIsScrolled(window.scrollY > 40);
     };
 

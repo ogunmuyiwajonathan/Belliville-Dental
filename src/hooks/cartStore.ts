@@ -36,7 +36,6 @@ export const useCartStore = create<CartState>()(
           const existingIndex = state.items.findIndex((i) => i.id === newItem.id);
 
           if (existingIndex !== -1) {
-            // Item already exists → increment quantity
             const updated = [...state.items];
             updated[existingIndex] = {
               ...updated[existingIndex],
@@ -45,7 +44,6 @@ export const useCartStore = create<CartState>()(
             return { items: updated };
           }
 
-          // New item
           return {
             items: [...state.items, { ...newItem, quantity }],
           };
@@ -78,11 +76,9 @@ export const useCartStore = create<CartState>()(
     }),
 
     {
-      name: 'belleville-dental-cart-v1',     // unique key in localStorage
+      name: 'belleville-dental-cart-v1',    
       storage: createJSONStorage(() => localStorage),
       version: 1,
-      // partialize: (state) => ({ items: state.items }), // optional: only persist items
-      // migrate: (persistedState, version) => { ... }   // add later if schema changes
     }
   )
 );

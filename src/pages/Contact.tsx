@@ -121,7 +121,7 @@ export default function Contact() {
             name: '',
             email: '',
             phone: '',
-            preferredDate: getTodayStr(), // always fresh today
+            preferredDate: getTodayStr(),
             message: '',
           });
           setDateError(null);

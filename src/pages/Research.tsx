@@ -99,7 +99,7 @@ export default function Research() {
           ))}
         </div>
 
-        {/* Articles Grid - FIXED */}
+        {/* Articles Grid*/}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {filteredArticles.map((article) => (
             <a
@@ -108,7 +108,6 @@ export default function Research() {
               className="block group"
             >
               <article className="h-full flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-[#3E9BFF]/10 hover:border-[#3E9BFF]/30">
-                {/* Content area that grows to push footer down */}
                 <div className="p-6 flex-1 flex flex-col">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="px-3 py-1 bg-[#3E9BFF]/10 text-[#3E9BFF] rounded-full text-xs font-medium uppercase">
@@ -128,7 +127,6 @@ export default function Research() {
                     {article.summary}
                   </p>
 
-                  {/* Author / Date pushed to bottom of content area */}
                   <div className="flex items-center justify-between pt-4 border-t border-[#3E9BFF]/10 mt-auto">
                     <div className="flex items-center gap-2 text-sm text-[#3D4F61]">
                       <User className="w-4 h-4 text-[#3E9BFF]" />
@@ -145,7 +143,7 @@ export default function Research() {
                   </div>
                 </div>
 
-                {/* CTA footer - always at bottom of card */}
+                {/* CTA footer */}
                 <div className="px-6 pb-6">
                   <div className="flex items-center gap-2 text-[#3E9BFF] font-medium text-sm group-hover:underline">
                     Read article
@@ -201,7 +199,7 @@ export default function Research() {
         </div>
       </div>
 
-      {/* YouTube Modal - fixed close button position */}
+      {/* YouTube Modal */}
       {selectedVideo && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"

@@ -34,7 +34,7 @@ export default function Layout() {
 
       <Footer />
 
-      {/* Floating Cart Button – always visible, bottom-right */}
+      {/* Floating Cart Button*/}
       <button
         onClick={() => setIsCartOpen(true)}
         className="

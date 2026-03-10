@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Link } from 'react-router-dom'; // ← NEW IMPORT
+import { Link } from 'react-router-dom';
 import {
   BookOpen,
   Clock,
@@ -108,7 +108,6 @@ export default function ProfessionalEducation() {
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-          {/* Courses – takes more space */}
           {(activeCategory === 'all' || activeCategory === 'courses') && (
             <div className="lg:col-span-2 space-y-10">
               <h3 className="text-2xl font-bold text-[#0B1C2D] flex items-center gap-3">

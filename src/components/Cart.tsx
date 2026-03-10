@@ -46,7 +46,7 @@ export default function Cart({ isOpen, onClose }: CartProps) {
   const tax = subtotal * TAX_RATE;
   const total = subtotal + tax;
 
-  // Drawer animation – safe version
+  // Drawer animation
   useEffect(() => {
     const drawer = drawerRef.current;
     const overlay = overlayRef.current;
@@ -200,7 +200,7 @@ export default function Cart({ isOpen, onClose }: CartProps) {
     };
   }, []);
 
-  // Toast logic – with your requested timings (1.2s loading + 2s success)
+  // Toast logic
   useEffect(() => {
     if (toastStage === 'idle') return;
     if (!toastRef.current) return;
@@ -222,7 +222,6 @@ export default function Cart({ isOpen, onClose }: CartProps) {
         );
       }
 
-      // Loading stage: 1.2 seconds
       toastTimerRef.current = setTimeout(() => setToastStage('success'), 1200);
     }
 
@@ -235,11 +234,9 @@ export default function Cart({ isOpen, onClose }: CartProps) {
 
       setTimeout(triggerConfetti, 140);
 
-      // Delay clearCart so toast renders correct values first
       toastTimerRef.current = setTimeout(() => {
         clearCart();
 
-        // Success visible for 2 seconds
         toastTimerRef.current = setTimeout(() => {
           gsap.to(toast, {
             y: 100,
@@ -350,7 +347,6 @@ export default function Cart({ isOpen, onClose }: CartProps) {
             </div>
           </div>
 
-          {/* Items list – scrollbar is now using native styles (no WebKit override) */}
           <div
             ref={itemsRef}
             className="flex-1 overflow-y-auto px-4 py-4 space-y-3 scrollbar scrollbar-thumb-slate-400 scrollbar-track-transparent"

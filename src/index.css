@@ -29,7 +29,6 @@ html {
     background: #2563eb;
 }
 
-/* Optional: Make it even thinner on mobile */
 @media (max-width: 768px) {
     ::-webkit-scrollbar {
         width: 5px;

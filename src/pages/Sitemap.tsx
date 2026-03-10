@@ -28,7 +28,7 @@ const sections = [
       },
       {
         label: 'Services',
-        path: '/#services',                    // ← Full hash path
+        path: '/#services',                 
         icon: Album,
         description: 'Click to see the services we offer.',
       },
@@ -114,9 +114,8 @@ export default function Sitemap() {
   const navigate = useNavigate();
 
   const handleClick = (path: string) => {
-    navigate(path);                          // ← Now sends the full hash!
+    navigate(path);                         
 
-    // Only scroll to top for normal pages (hash scrolling is handled in Home.tsx)
     if (!path.includes('#')) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }

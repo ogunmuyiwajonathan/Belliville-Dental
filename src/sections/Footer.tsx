@@ -1,3 +1,4 @@
+// Footer.tsx
 import { Link } from 'react-router-dom';
 import { useTickerInfo } from '../hooks/useTickerInfo';
 import { FaXTwitter } from "react-icons/fa6";
@@ -39,10 +40,9 @@ export default function Footer() {
   return (
     <footer className="bg-[#0f172a] text-white overflow-hidden">
 
-      {/* MARQUEE - FIXED & FULLY WORKING */}
+      {/* MARQUEE*/}
       <div className="bg-[#1e88e5] py-3 text-sm font-medium overflow-hidden border-b border-blue-700 marquee-container">
         <div className="marquee-track marquee">
-          {/* COPY 1 */}
           <div className="flex items-center gap-12 px-8 whitespace-nowrap">
             <span>{marqueeText}</span>
             <span className="text-blue-100">•••</span>
@@ -51,7 +51,6 @@ export default function Footer() {
             <span>{marqueeText}</span>
           </div>
 
-          {/* COPY 2 - required for seamless infinite loop */}
           <div className="flex items-center gap-12 px-8 whitespace-nowrap">
             <span>{marqueeText}</span>
             <span className="text-blue-100">•••</span>
