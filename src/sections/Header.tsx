@@ -15,6 +15,17 @@ const navItems = [
   { label: '🗺️Sitemap', path: '/sitemap' },
 ];
 
+const mobileNavItems = [
+  { label: 'Home', path: '/', word:' : Home, Services ...' },
+  { label: 'Professional Education', path: '/professional-education' },
+  { label: 'Patient Education', path: '/patient-education' },
+  { label: 'Research', path: '/research', word:' : Research articles, Educational videos ...' },
+  { label: 'Products', path: '/products' },
+  { label: 'About Us', path: '/aboutus' , word:' : About Us, Testimonials, Gallery ...'},
+  { label: 'Contact Us', path: '/contact' },
+  { label: '🗺️Sitemap', path: '/sitemap' },
+];
+
 export default function Header() {
   const visitorCount = useVisitorCounter();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -142,7 +153,7 @@ export default function Header() {
         `}
       >
         <nav className="max-w-7xl mx-auto px-5 sm:px-6 flex flex-col gap-2">
-          {navItems.map((item) => (
+          {mobileNavItems.map((item) => (
             <NavLink
               key={item.path}
               to={item.path}
@@ -154,7 +165,7 @@ export default function Header() {
                   : 'text-gray-700 hover:bg-gray-50 active:bg-gray-100'}
               `}
             >
-              {item.label}
+              {item.label} <span className='text-gray-500 text-sm'>{item.word}</span>
             </NavLink>
           ))}
 

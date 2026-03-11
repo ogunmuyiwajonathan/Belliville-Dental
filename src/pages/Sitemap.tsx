@@ -79,7 +79,7 @@ const sections = [
         description: 'Meet our team, our story, and our values.',
       },
       {
-        label: 'Testimonals',
+        label: 'Testimonials',
         path: '/aboutus#testimonials',
         icon: MessageCircle,
         description: 'Real experiences from real people who chose Belleville Dental for their smile care.',
