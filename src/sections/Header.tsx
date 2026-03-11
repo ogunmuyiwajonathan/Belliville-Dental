@@ -159,7 +159,7 @@ export default function Header() {
           ))}
 
           <NavLink
-            to="/contact"
+            to="/book"
             onClick={() => setIsMobileMenuOpen(false)}
             className="mt-4 mx-6 py-4 bg-[#3E9BFF] hover:bg-[#2563eb] text-white rounded-full font-semibold transition-colors shadow-md text-center"
           >

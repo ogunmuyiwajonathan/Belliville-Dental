@@ -11,6 +11,7 @@ import {
   Mail,
   Clock,
   Calendar,
+  HelpCircle,
 } from 'lucide-react';
 
 const quickLinks = [
@@ -97,6 +98,13 @@ export default function Footer() {
             >
               <Calendar className="w-4 h-4" />
               Book an Appointment
+            </Link>
+            <Link
+              to="/faq"
+              className="inline-flex items-center gap-2 self-start px-5 py-2.5 bg-[#1e88e5] hover:bg-[#1565c0] text-white text-sm font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-900/30"
+            >
+              <HelpCircle className="w-4 h-4" />
+              Click here to see frequently asked questions
             </Link>
 
             {/* Socials */}
